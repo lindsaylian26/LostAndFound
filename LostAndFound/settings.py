@@ -22,6 +22,8 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 # Disabled automatically if DEVELOPMENT_MODE is True
 DEBUG = True
 
+DEVELOPMENT_MODE = False
+
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'lost-and-found-a26-515dd2d8d5a8.herokuapp.com']
 
 AUTHENTICATION_BACKENDS = [
