@@ -13,3 +13,4 @@ boto3
 django-storages
 python-magic; platform_system == "Linux"
 python-magic-bin; platform_system == "Windows"
+requests
