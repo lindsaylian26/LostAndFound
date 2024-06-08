@@ -115,9 +115,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'LostAndFound.wsgi.application'
 
-DATABASES = {
-    'default': dj_database_url.config(default='postgres://localhost')
-}
+DATABASE={}
 
 AUTH_PASSWORD_VALIDATORS = [
     {
