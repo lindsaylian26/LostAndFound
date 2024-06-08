@@ -59,7 +59,7 @@ class Index(LoginRequiredMixin, generic.ListView):
         # Filter the queryset based on is_found
         items = Item.objects.filter(
             is_found=self.is_found,
-            status__in=[Status.RESOLVED],
+            status__in=[Status.RESOLVED, Status.NEW, Status.IN_PROGRESS],
             expiration_date__gte=today  # This will only include items whose expiration date is today or later
         )
         # if a tag is specified, filter based on tag from already filtered list
