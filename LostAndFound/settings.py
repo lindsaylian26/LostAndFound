@@ -24,7 +24,7 @@ DEBUG = True
 
 DEVELOPMENT_MODE = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'lost-and-found-a26-515dd2d8d5a8.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'lostandfoundcs3240-919b6bea7b76.herokuapp.com']
 
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
